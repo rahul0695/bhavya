@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8d1d2c">
+  <title>For Bhavya, with all my heart</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <main>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="Back to the beginning"><span class="brand-mark">b</span><span>for bhavya</span></a>
+      <span class="top-note">a little birthday archive</span>
+    </header>
+
+    <section class="hero" id="top">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> tomorrow is yours</p>
+        <h1>Happy<br><em>Birthday,</em><br>Bhavya.</h1>
+        <p class="hero-intro">A tiny corner of the internet, made for the girl who makes every room feel a little brighter.</p>
+        <a class="scroll-cue" href="#note"><span class="scroll-dot"></span> open your little surprise</a>
+      </div>
+      <div class="hero-image-wrap reveal reveal-delay">
+        <button class="hero-image-frame photo-trigger" type="button" data-photo="b7.jpg" data-index="6" aria-label="Open Bhavya's portrait"><img src="b7.jpg" alt="Bhavya smiling in a red outfit"></button>
+        <div class="hero-stamp">made<br>with love</div>
+      </div>
+      <div class="hero-side-note">01 / 07<br><span>for the memories</span></div>
+    </section>
+
+    <section class="soundtrack section-wrap" aria-label="Birthday soundtrack">
+      <div class="soundtrack-label"><span class="music-note">♫</span><span>the soundtrack<br><em>for this little day</em></span></div>
+      <div class="audio-player">
+        <button class="audio-toggle" id="audioToggle" type="button" aria-label="Play birthday soundtrack"><span id="audioIcon">▶</span></button>
+        <div class="audio-details"><strong>Rakhlo Tum Chupaake</strong><span>press play, let the memories glow</span></div>
+        <div class="audio-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        <audio id="birthdayAudio" preload="metadata" loop><source src="Rakhlo%20Tum%20Chupaake.mp3" type="audio/mpeg"></audio>
+      </div>
+    </section>
+
+    <section class="note-section section-wrap" id="note">
+      <div class="section-label">a note for you <span>02</span></div>
+      <div class="note-grid">
+        <div class="note-heading reveal"><p class="kicker">Dear Bhavya,</p><h2>Some people<br>are <em>sunshine.</em></h2></div>
+        <div class="note-body reveal reveal-delay">
+          <p>And you are exactly that kind of person. The kind who turns ordinary moments into the ones we keep coming back to, who carries warmth wherever she goes, and somehow makes being yourself feel easy.</p>
+          <p>On your birthday, I hope life gives you back all the joy you so effortlessly give to everyone around you.</p>
+          <p class="signature">Always cheering for you,<br><strong>your person</strong> <span>♡</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gift-section section-wrap" id="gift">
+      <div class="gift-copy"><p class="kicker">something is waiting</p><h2>A little<br><em>gift for you.</em></h2><p>Because birthdays should always come with a tiny bit of magic.</p></div>
+      <div class="gift-area"><button class="gift-box" id="giftButton" type="button" aria-label="Open your birthday gift"><span class="gift-lid"></span><span class="gift-ribbon vertical"></span><span class="gift-ribbon horizontal"></span><span class="gift-bow">♡</span></button><p class="gift-hint" id="giftHint">tap the gift to open</p><div class="gift-message" id="giftMessage" aria-live="polite"><span>✦</span><strong>You are loved<br>more than you know.</strong><small>and today, especially.</small></div></div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="memories">
+      <div class="gallery-heading">
+        <div><p class="kicker">little moments</p><h2>Bhavya,<br>in <em>seven frames.</em></h2></div>
+      </div>
+      <div class="gallery-grid">
+        <figure class="memory memory-one reveal"><button class="photo-trigger" type="button" data-photo="b2.jpg" data-index="1" aria-label="Open Bhavya's close-up portrait"><span class="photo-number">02</span><span class="photo-open">↗</span><img src="b2.jpg" alt="Bhavya smiling in a close-up portrait"></button></figure>
+        <figure class="memory memory-two reveal reveal-delay"><button class="photo-trigger" type="button" data-photo="b6.jpg" data-index="5" aria-label="Open Bhavya's portrait"><span class="photo-number">06</span><span class="photo-open">↗</span><img src="b6.jpg" alt="Bhavya posing in her red and green outfit"></button></figure>
+        <figure class="memory memory-three reveal"><button class="photo-trigger" type="button" data-photo="b1.jpg" data-index="0" aria-label="Open Bhavya laughing with friends"><span class="photo-number">01</span><span class="photo-open">↗</span><img src="b1.jpg" alt="Bhavya laughing with friends"></button></figure>
+        <figure class="memory memory-four reveal reveal-delay"><button class="photo-trigger" type="button" data-photo="b5.jpg" data-index="4" aria-label="Open Bhavya's portrait"><span class="photo-number">05</span><span class="photo-open">↗</span><img src="b5.jpg" alt="Bhavya looking at the camera"></button></figure>
+        <figure class="memory memory-five reveal"><button class="photo-trigger" type="button" data-photo="b3.jpg" data-index="2" aria-label="Open Bhavya's portrait"><span class="photo-number">03</span><span class="photo-open">↗</span><img src="b3.jpg" alt="Bhavya with her hand in her hair"></button></figure>
+        <figure class="memory memory-six reveal reveal-delay"><button class="photo-trigger" type="button" data-photo="b4.jpg" data-index="3" aria-label="Open Bhavya's candid portrait"><span class="photo-number">04</span><span class="photo-open">↗</span><img src="b4.jpg" alt="Bhavya smiling in a candid portrait"></button></figure>
+      </div>
+    </section>
+
+    <section class="wish-section" id="wish">
+      <div class="wish-inner reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> one last thing</p>
+        <h2>Make a wish<br><em>for yourself.</em></h2>
+        <p>Close your eyes, think of something beautiful,<br>and tap the button when you're ready.</p>
+        <button class="wish-button" id="wishButton" type="button"><span class="button-spark">✦</span> I made my wish <span class="button-heart">♡</span></button>
+        <p class="wish-message" id="wishMessage" aria-live="polite">May this year be your softest, brightest one yet.</p>
+      </div>
+      <div class="wish-orbit orbit-one" aria-hidden="true"></div><div class="wish-orbit orbit-two" aria-hidden="true"></div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+      <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close photo viewer">&times;</button>
+      <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" type="button" aria-label="Previous photo">&#8592;</button>
+      <div class="lightbox-content"><img id="lightboxImage" src="" alt=""><span id="lightboxCount">01 / 07</span></div>
+      <button class="lightbox-arrow lightbox-next" id="lightboxNext" type="button" aria-label="Next photo">&#8594;</button>
+    </div>
+
+    <footer><span>for bhavya</span><span>from someone who loves your light</span><span>2026 / always</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
